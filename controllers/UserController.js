@@ -3,7 +3,7 @@ const user = require('../models/user');
 module.exports = {
     async list(req, res){
         try {
-            const users = await user.findAll()
+            const users = await user.findAll();
             return res.json(users);
         } catch (err) {
             return console.error("Erro na listagem: ", err);
