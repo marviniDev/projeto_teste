@@ -1,4 +1,3 @@
-'use strict';
 const Sequelize = require('sequelize');
 const sequelize = require('../src/db');
 const DataTypes = require('sequelize').DataTypes;
